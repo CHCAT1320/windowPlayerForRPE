@@ -1,0 +1,376 @@
+{
+   "BPMList" : [
+      {
+         "bpm" : 105.0,
+         "startTime" : [ 0, 0, 1 ]
+      }
+   ],
+   "META" : {
+      "RPEVersion" : 160,
+      "background" : "4203267478680411.png",
+      "charter" : "？",
+      "composer" : "？",
+      "duration" : 74.186996459960938,
+      "id" : "4203267478680411",
+      "illustration" : "",
+      "level" : "0",
+      "name" : "win10演示",
+      "offset" : 0,
+      "song" : "4203267478680411.mp3"
+   },
+   "chartTime" : 257.1286999999819,
+   "judgeLineGroup" : [ "Default" ],
+   "judgeLineList" : [
+      {
+         "Group" : 0,
+         "Name" : "Untitled",
+         "Texture" : "line.png",
+         "alphaControl" : [
+            {
+               "alpha" : 1.0,
+               "easing" : 1,
+               "x" : 0.0
+            },
+            {
+               "alpha" : 1.0,
+               "easing" : 1,
+               "x" : 9999999.0
+            }
+         ],
+         "anchor" : [ 0.5, 0.5 ],
+         "bpmfactor" : 1.0,
+         "eventLayers" : [
+            {
+               "alphaEvents" : [
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 1,
+                     "end" : 255,
+                     "endTime" : [ 7, 1, 2 ],
+                     "linkgroup" : 0,
+                     "start" : 0,
+                     "startTime" : [ 0, 0, 1 ]
+                  }
+               ],
+               "moveXEvents" : [
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 1,
+                     "end" : 0.0,
+                     "endTime" : [ 1, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 0, 0, 1 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 1,
+                     "end" : 0.0,
+                     "endTime" : [ 8, 1, 2 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 7, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 1,
+                     "end" : 0.0,
+                     "endTime" : [ 9, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 8, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 10,
+                     "end" : 300.0,
+                     "endTime" : [ 10, 1, 2 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 9, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 14,
+                     "end" : 0.0,
+                     "endTime" : [ 11, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : 300.0,
+                     "startTime" : [ 10, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 14,
+                     "end" : 0.0,
+                     "endTime" : [ 12, 1, 2 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 11, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 14,
+                     "end" : 0.0,
+                     "endTime" : [ 13, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 12, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 14,
+                     "end" : -200.0,
+                     "endTime" : [ 14, 1, 2 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 13, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 24,
+                     "end" : 0.0,
+                     "endTime" : [ 15, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : -200.0,
+                     "startTime" : [ 14, 1, 2 ]
+                  }
+               ],
+               "moveYEvents" : [
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 1,
+                     "end" : 0.0,
+                     "endTime" : [ 1, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 0, 0, 1 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 4,
+                     "end" : 300.0,
+                     "endTime" : [ 8, 1, 2 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 7, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 8,
+                     "end" : 0.0,
+                     "endTime" : [ 9, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : 300.0,
+                     "startTime" : [ 8, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 8,
+                     "end" : 0.0,
+                     "endTime" : [ 10, 1, 2 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 9, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 8,
+                     "end" : 0.0,
+                     "endTime" : [ 11, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 10, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 8,
+                     "end" : -200.0,
+                     "endTime" : [ 12, 1, 2 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 11, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 24,
+                     "end" : 0.0,
+                     "endTime" : [ 13, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : -200.0,
+                     "startTime" : [ 12, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 24,
+                     "end" : 0.0,
+                     "endTime" : [ 14, 1, 2 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 13, 1, 2 ]
+                  },
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 24,
+                     "end" : 0.0,
+                     "endTime" : [ 15, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 14, 1, 2 ]
+                  }
+               ],
+               "rotateEvents" : [
+                  {
+                     "bezier" : 0,
+                     "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                     "easingLeft" : 0.0,
+                     "easingRight" : 1.0,
+                     "easingType" : 1,
+                     "end" : 0.0,
+                     "endTime" : [ 1, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : 0.0,
+                     "startTime" : [ 0, 0, 1 ]
+                  }
+               ],
+               "speedEvents" : [
+                  {
+                     "end" : 10.0,
+                     "endTime" : [ 1, 0, 1 ],
+                     "linkgroup" : 0,
+                     "start" : 10.0,
+                     "startTime" : [ 0, 0, 1 ]
+                  }
+               ]
+            }
+         ],
+         "extended" : {
+            "inclineEvents" : [
+               {
+                  "bezier" : 0,
+                  "bezierPoints" : [ 0.0, 0.0, 0.0, 0.0 ],
+                  "easingLeft" : 0.0,
+                  "easingRight" : 1.0,
+                  "easingType" : 0,
+                  "end" : 0.0,
+                  "endTime" : [ 1, 0, 1 ],
+                  "linkgroup" : 0,
+                  "start" : 0.0,
+                  "startTime" : [ 0, 0, 1 ]
+               }
+            ]
+         },
+         "father" : -1,
+         "isCover" : 1,
+         "isGif" : false,
+         "numOfNotes" : 0,
+         "posControl" : [
+            {
+               "easing" : 1,
+               "pos" : 1.0,
+               "x" : 0.0
+            },
+            {
+               "easing" : 1,
+               "pos" : 1.0,
+               "x" : 9999999.0
+            }
+         ],
+         "sizeControl" : [
+            {
+               "easing" : 1,
+               "size" : 1.0,
+               "x" : 0.0
+            },
+            {
+               "easing" : 1,
+               "size" : 1.0,
+               "x" : 9999999.0
+            }
+         ],
+         "skewControl" : [
+            {
+               "easing" : 1,
+               "skew" : 0.0,
+               "x" : 0.0
+            },
+            {
+               "easing" : 1,
+               "skew" : 0.0,
+               "x" : 9999999.0
+            }
+         ],
+         "yControl" : [
+            {
+               "easing" : 1,
+               "x" : 0.0,
+               "y" : 1.0
+            },
+            {
+               "easing" : 1,
+               "x" : 9999999.0,
+               "y" : 1.0
+            }
+         ],
+         "zOrder" : 0
+      }
+   ],
+   "multiLineString" : "0:10",
+   "multiScale" : 1.0
+}
