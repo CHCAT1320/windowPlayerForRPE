@@ -1,7 +1,8 @@
 import json
-chart = "chart1"
+# chart = "Turning POINT"
+chart = "win10"
 with open(f'resources/chart/{chart}.json', 'r', encoding='utf-8') as file:
-# with open('D:\\rpe\\PhiEdit\\Resources\\4203267478680411\\4203267478680411.json', 'r', encoding='utf-8') as file:
+# with open('D:\\rpe\\PhiEdit\\Resources\\2335887341837385\\2335887341837385.json', 'r', encoding='utf-8') as file:
     chartFiles = file.read()
     chartFiles = json.loads(chartFiles)
 
