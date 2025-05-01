@@ -27,6 +27,7 @@ class PlayerWindow:
         self.root = tk.Tk()
         self.root.title("PlayerWindow")
         self.windowNumber = windowNumber
+        self.root.overrideredirect(True)
         self.x = 0
         self.y = 0
         self.xEvents = readChart.chartFiles['judgeLineList'][self.windowNumber]["eventLayers"][0]["moveXEvents"]
@@ -114,39 +115,48 @@ class PlayerWindow:
                 else:
                     a = self.aEvents[self.aEventIndex]["start"]
                     self.a = 1 - (255 - a) / 255
-
+    def scaleXChange(self,x):
+        result = (x * 4000 ) * (self.root.winfo_screenwidth() / 1350)
+        if result > self.root.winfo_screenwidth():
+            result = self.root.winfo_screenwidth()
+        return result
     def scaleXWindow(self):
         time = pygame.mixer.music.get_pos() / 1000
         if self.sXIndex < len(self.scaleXEvents):
             if time > baseToSecond(self.scaleXEvents[self.sXIndex]["endTime"]):
-                scaleX = (self.scaleXEvents[self.sXIndex]["end"] * 1000) * 4
-                self.w = scaleX
+                scaleX = self.scaleXEvents[self.sXIndex]["end"]
+                self.w = self.scaleXChange(scaleX)
                 self.sXIndex += 1
             elif time > baseToSecond(self.scaleXEvents[self.sXIndex]["startTime"]):
                 easingType = self.scaleXEvents[self.sXIndex]["easingType"]
                 if self.scaleXEvents[self.sXIndex]["end"] != self.scaleXEvents[self.sXIndex]["start"]:
                     result = rpe_easing.ease_funcs[easingType - 1]((time-baseToSecond(self.scaleXEvents[self.sXIndex]["startTime"])) / (baseToSecond(self.scaleXEvents[self.sXIndex]["endTime"]) - baseToSecond(self.scaleXEvents[self.sXIndex]["startTime"])))
                     scaleX = self.scaleXEvents[self.sXIndex]["start"] + (self.scaleXEvents[self.sXIndex]["end"] - self.scaleXEvents[self.sXIndex]["start"]) * result
-                    self.w = (scaleX * 1000) * 4
+                    self.w = self.scaleXChange(scaleX)
                 else:
                     scaleX = self.scaleXEvents[self.sXIndex]["start"]
-                    self.w = (scaleX * 1000) * 4
+                    self.w = self.scaleXChange(scaleX)
+    def scaleYChange(self,y):
+        result = (y * 5 ) * (self.root.winfo_screenheight() / 900)
+        if result > self.root.winfo_screenheight():
+            result = self.root.winfo_screenheight()
+        return result
     def scaleYWindow(self):
         time = pygame.mixer.music.get_pos() / 1000
         if self.sYIndex < len(self.scaleYEvents):
             if time > baseToSecond(self.scaleYEvents[self.sYIndex]["endTime"]):
-                scaleY = (self.scaleYEvents[self.sYIndex]["end"] * 4)
-                self.h = scaleY
+                scaleY = self.scaleYEvents[self.sYIndex]["end"]
+                self.h = self.scaleYChange(scaleY)
                 self.sYIndex += 1
             elif time > baseToSecond(self.scaleYEvents[self.sYIndex]["startTime"]):
                 easingType = self.scaleYEvents[self.sYIndex]["easingType"]
                 if self.scaleYEvents[self.sYIndex]["end"] != self.scaleYEvents[self.sYIndex]["start"]:
                     result = rpe_easing.ease_funcs[easingType - 1]((time-baseToSecond(self.scaleYEvents[self.sYIndex]["startTime"])) / (baseToSecond(self.scaleYEvents[self.sYIndex]["endTime"]) - baseToSecond(self.scaleYEvents[self.sYIndex]["startTime"])))
                     scaleY = self.scaleYEvents[self.sYIndex]["start"] + (self.scaleYEvents[self.sYIndex]["end"] - self.scaleYEvents[self.sYIndex]["start"]) * result
-                    self.h = scaleY * 4
+                    self.h = self.scaleYChange(scaleY)
                 else:
                     scaleY = self.scaleYEvents[self.sYIndex]["start"]
-                    self.h = scaleY * 4
+                    self.h = self.scaleYChange(scaleY)
     def getText(self):
         time = pygame.mixer.music.get_pos() / 1000
         if self.textIndex < len(self.textEvents):
